@@ -1,0 +1,111 @@
+body {
+  margin: 0;
+  background-color: hsl(225, 100%, 94%);
+  font-family: Arial, sans-serif;
+}
+
+.fundo {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.card {
+  width: 450px;
+  margin: 50px auto;
+  background-color: white;
+  border-radius: 20px;
+  overflow: hidden;
+  position: relative;
+  z-index: 2;
+  padding-bottom: 25px;
+}
+
+.imagem {
+  width: 100%;
+  display: block;
+}
+
+h1 {
+  text-align: center;
+  color: hsl(223, 47%, 23%);
+  font-size: 28px;
+  margin-top: 30px;
+}
+
+.card > p {
+  text-align: center;
+  color: hsl(224, 23%, 55%);
+  line-height: 1.6;
+  padding: 0 45px;
+}
+
+.card2 {
+  width: 350px;
+  height: 80px;
+  margin: 30px auto;
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.musica {
+  width: 45px;
+  margin: 15px;
+}
+
+.plano {
+  font-size: 15px;
+}
+
+.plano p {
+  margin: 0;
+  color: hsl(223, 47%, 23%);
+  font-weight: bold;
+}
+
+.plano span {
+  color: hsl(224, 23%, 55%);
+  font-size: 14px;
+}
+
+.card2 a {
+  margin-left: auto;
+  margin-right: 15px;
+  color: hsl(245, 75%, 52%);
+  font-size: 14px;
+}
+
+button {
+  width: 350px;
+  height: 50px;
+  display: block;
+  margin: 20px auto 0;
+  border: none;
+  border-radius: 10px;
+  background-color: hsl(245, 75%, 52%);
+  color: white;
+  font-weight: bold;
+}
+
+.cancelar {
+  color: hsl(224, 23%, 55%);
+  font-size: 14px;
+  font-weight: bold;
+}
+
+@media (max-width: 600px) {
+  .card {
+    width: 90%;
+    margin: 30px auto;
+}
+  .card2 {
+    width: 85%;
+}
+  button {
+    width: 85%;
+}
+}
